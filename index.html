@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/css/portrair.css" />
+    <link rel="stylesheet" href="src/css/landscape.css" />
+  </head>
+  <body>
+    <div class="portrait">
+      <img class="mestre" src="src/assets/images/mestre.jpeg" />
+      <div class="background"></div>
+      <div class="background-timer"></div>
+      <img class="mestre" src="src/assets/images/mestre.png" />
+      <div class="background2"></div>
+      <div class="separator"></div>
+      <div class="button-group opacity none">
+        <div class="label">RODADAS</div>
+        <div onclick="rodadasFunc(false);" class="side click-animation">
+          <img src="src/assets/images/minus.svg" />
+        </div>
+        <div id="rounds" class="center">00</div>
+        <div onclick="rodadasFunc(true);" class="side click-animation">
+          <img src="src/assets/images/plus.svg" />
+        </div>
+      </div>
+      <div class="button-group opacity none">
+        <div class="label">TEMPO DE LUTA</div>
+        <div onclick="fightTimeFunc(false);" class="side click-animation">
+          <img src="src/assets/images/minus.svg" />
+        </div>
+        <div id="fightTime" class="center">00:00</div>
+        <div onclick="fightTimeFunc(true);" class="side click-animation">
+          <img src="src/assets/images/plus.svg" />
+        </div>
+      </div>
+      <div class="button-group opacity none">
+        <div class="label">TEMPO DE DESCANSO</div>
+        <div onclick="restTimeFunc(false);" class="side click-animation">
+          <img src="src/assets/images/minus.svg" />
+        </div>
+        <div id="restTime" class="center">00:00</div>
+        <div onclick="restTimeFunc(true);" class="side click-animation">
+          <img src="src/assets/images/plus.svg" />
+        </div>
+      </div>
+      <img class="click-animation logo" onclick="main();" src="src/assets/images/logo.svg" />
+    </div>
+    <div class="landscape"></div>
+    <script src="index.js"></script>
+  </body>
+</html>

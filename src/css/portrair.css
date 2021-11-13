@@ -1,0 +1,109 @@
+.logo {
+  width: 40vw;
+  top: 5vw;
+  left: 30vw;
+  position: absolute;
+  z-index: 1;
+}
+
+.mestre {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100vw;
+}
+
+.background,
+.background2 {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #212121;
+  opacity: 0.9;
+}
+
+.background2 {
+  background-color: #000000;
+  opacity: 0.6;
+}
+
+.background-timer {
+  position: absolute;
+  width: 100vw;
+  height: 0vh;
+  left: 0px;
+  bottom: 0px;
+  transition: 0s all linear;
+  background-color: red;
+}
+
+.separator {
+  position: relative;
+  width: 100vw;
+  height: 50vw;
+}
+
+.button-group {
+  width: 90vw;
+  height: 20vw;
+  position: relative;
+  top: 10vw;
+  left: 5vw;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #000;
+  text-align: center;
+  line-height: 22vw;
+  font-size: 13vw;
+  opacity: 0.9;
+  transition: all 0.5s;
+  margin-bottom: 20vw;
+}
+
+.opacity {
+  opacity: 0;
+  margin-bottom: 0vw;
+}
+
+.none {
+  display: none;
+}
+
+.label {
+  width: 80%;
+  left: 10%;
+  top: -40%;
+  height: 40%;
+  position: absolute;
+  background-color: #212121;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  line-height: 8vw;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+}
+
+.side {
+  width: 25%;
+  height: 100%;
+  float: left;
+  background-color: #21212134;
+  line-height: 0vw;
+  position: relative;
+}
+
+.side img {
+  position: absolute;
+  top: calc(50% - 5vw);
+  left: calc(50% - 5vw);
+  width: 10vw;
+}
+
+.center {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-color: #fff;
+  font-family: 'clock';
+}
