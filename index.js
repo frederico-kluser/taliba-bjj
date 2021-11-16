@@ -31,6 +31,7 @@ const deskTimeBackground = document.getElementById('desk-time-background');
 // eslint-disable-next-line complexity
 const main = () => {
   if (!firstClick) {
+    document.documentElement.webkitRequestFullScreen();
     firstClick = true;
     clean();
   } else if (rounds !== 0 && fightTime !== 0 && restTime !== 0 && !started) {
@@ -93,8 +94,8 @@ const setIntervalFunc = () => {
     actualRound--;
     initialTime = new Date().getTime();
   } else {
-    over.play();
     clean();
+    over.play();
   }
 };
 
