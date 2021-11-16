@@ -1,25 +1,25 @@
 .logo {
-  width: 40vw;
-  top: 5vw;
   left: 30vw;
   position: absolute;
+  top: 5vw;
+  width: 40vw;
   z-index: 1;
 }
 
 .mestre {
-  position: absolute;
   bottom: 0px;
   left: 0px;
+  position: absolute;
   width: 100vw;
 }
 
 .background,
 .background2 {
+  background-color: #212121;
+  height: 100vh;
+  opacity: 0.9;
   position: absolute;
   width: 100vw;
-  height: 100vh;
-  background-color: #212121;
-  opacity: 0.9;
 }
 
 .background2 {
@@ -28,41 +28,41 @@
 }
 
 .background-timer {
-  position: absolute;
-  width: 100vw;
+  background-color: red;
+  bottom: 0px;
   height: 0vh;
   left: 0px;
-  bottom: 0px;
+  position: absolute;
   transition: 0s all linear;
-  background-color: red;
+  width: 100vw;
 }
 
 .separator {
+  height: 50vw;
   position: relative;
   width: 100vw;
-  height: 50vw;
 }
 
 .button-group {
-  width: 90vw;
-  height: 20vw;
-  position: relative;
-  top: 10vw;
-  left: 5vw;
-  border-radius: 10px;
   background-color: #fff;
+  border-radius: 10px;
   box-shadow: 0px 0px 10px #000;
-  text-align: center;
-  line-height: 22vw;
   font-size: 13vw;
-  opacity: 0.9;
-  transition: all 0.5s;
+  height: 20vw;
+  left: 5vw;
+  line-height: 22vw;
   margin-bottom: 20vw;
+  opacity: 0.9;
+  position: relative;
+  text-align: center;
+  top: 10vw;
+  transition: all 0.5s;
+  width: 90vw;
 }
 
 .opacity {
-  opacity: 0;
   margin-bottom: 0vw;
+  opacity: 0;
 }
 
 .none {
@@ -70,40 +70,40 @@
 }
 
 .label {
-  width: 80%;
-  left: 10%;
-  top: -40%;
-  height: 40%;
-  position: absolute;
   background-color: #212121;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  line-height: 8vw;
   color: #fff;
-  font-size: 14px;
   font-family: 'Helvetica Neue', Helvetica, Arial;
+  font-size: 14px;
+  height: 40%;
+  left: 10%;
+  line-height: 8vw;
+  position: absolute;
+  top: -40%;
+  width: 80%;
 }
 
 .side {
-  width: 25%;
-  height: 100%;
-  float: left;
   background-color: #21212134;
+  float: left;
+  height: 100%;
   line-height: 0vw;
   position: relative;
+  width: 25%;
 }
 
 .side img {
+  left: calc(50% - 5vw);
   position: absolute;
   top: calc(50% - 5vw);
-  left: calc(50% - 5vw);
   width: 10vw;
 }
 
 .center {
-  width: 50%;
-  height: 100%;
-  float: left;
   background-color: #fff;
+  float: left;
   font-family: 'clock';
+  height: 100%;
+  width: 50%;
 }

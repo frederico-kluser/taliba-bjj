@@ -1,0 +1,103 @@
+body {
+  background-color: #000;
+}
+
+.desk-clock {
+  background-color: #212121;
+  bottom: 0vh;
+  height: calc(100vh - 32px);
+  left: 0vw;
+  padding: 16px;
+  position: absolute;
+  width: calc(100vw - 32px);
+}
+
+.desk-round,
+.desk-time {
+  border-radius: 20px;
+  float: left;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  height: 70%;
+  left: 0;
+  position: relative;
+  text-align: center;
+  top: 15%;
+}
+
+.desk-round {
+  width: 35%;
+  background-color: #eee;
+}
+
+.desk-time {
+  width: calc(65% - 16px);
+  background-color: #ea1e0d;
+  margin-left: 16px;
+}
+
+.desk-round h5,
+.desk-time h5 {
+  line-height: 48px;
+  font-size: 24px;
+  margin: 0px;
+}
+
+.desk-round h5 {
+  color: #ea1e0d;
+}
+
+.desk-time h5 {
+  color: #eee;
+}
+
+.desk-time h1 {
+  color: #eee;
+}
+
+.desk-round h1,
+.desk-time h1 {
+  font-size: 20vw;
+  line-height: 45vh;
+  margin: 0px;
+}
+
+.desk-options,
+.desk-last {
+  background-color: #323235;
+  border-radius: 20px;
+  color: #eee;
+  float: left;
+  font-family: 'clock';
+  font-size: 5vw;
+  height: calc(25vh - 16px);
+  left: 0px;
+  margin-right: 16px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  top: 16px;
+  width: calc(25% - 16px);
+}
+
+.desk-last {
+  margin-left: 16px;
+  margin-right: 0px;
+}
+
+.desk-options-time {
+  float: left;
+  height: 100%;
+  line-height: calc(25vh - 16px);
+  position: relative;
+  width: 70%;
+}
+
+.desk-options-buttons {
+  float: left;
+  height: 50%;
+  line-height: 12.5vh;
+  position: relative;
+  width: 30%;
+  background-color: #fff;
+}

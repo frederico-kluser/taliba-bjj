@@ -4,6 +4,7 @@
 }
 
 .click-animation {
+  opacity: 1;
   transition: 0.25s all;
 }
 
